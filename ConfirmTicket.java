@@ -51,7 +51,7 @@ public class ConfirmTicket extends BaseClass {
         ConfirmTicket confirmTicket = new ConfirmTicket();
         confirmTicket.setUp();
         try {
-            confirmTicket.login("1234567890", "123456");  // Enter incorrect credentials for testing
+            confirmTicket.login("5656586465", "785859");  // Enter incorrect credentials for testing
             confirmTicket.bookTicket();
         } catch (Exception e) {
 			System.out.println("You have entered Incorrect credential");
